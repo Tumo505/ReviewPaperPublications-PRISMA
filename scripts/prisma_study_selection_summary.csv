@@ -1,0 +1,5 @@
+PRISMA_Phase,Records_Count,Excluded_Count,Cumulative_Exclusion
+Initial Database Search,462,0,0
+Title/Abstract Screening,402,60,60
+Full-text Assessment,88,314,374
+Final Inclusion,88,0,374

@@ -1,0 +1,82 @@
+{
+  "identification": {
+    "initial_records": 325,
+    "search_databases": [
+      "PubMed",
+      "Web of Science",
+      "Embase",
+      "IEEE Xplore",
+      "ACM Digital Library",
+      "arXiv",
+      "bioRxiv"
+    ]
+  },
+  "screening": {
+    "title_abstract_screening": {
+      "eligible_for_screening": 92,
+      "excluded": 55,
+      "exclusion_reasons": {
+        "duplicate_methodologies": 10,
+        "insufficient_deep_learning": 10,
+        "preliminary_results": 8,
+        "no_spatial_resolution": 7,
+        "non_cardiac_focus": 6,
+        "insufficient_methodology": 6,
+        "small_sample_sizes": 4,
+        "theoretical_only": 4
+      },
+      "remaining": 37
+    },
+    "inter_rater_agreement": {
+      "cohens_kappa": 0.807,
+      "interpretation": "Substantial agreement"
+    }
+  },
+  "eligibility": {
+    "full_text_assessment": {
+      "assessed": 37,
+      "excluded": 21,
+      "exclusion_reasons": {
+        "insufficient_methodology": 6,
+        "bulk_transcriptomics_only": 5,
+        "conference_abstracts_letters_editorials": 8,
+        "theoretical_only": 2
+      },
+      "included": 16
+    }
+  },
+  "inclusion": {
+    "final_synthesis": 16,
+    "study_characteristics": {
+      "total_studies": 16,
+      "year_distribution": {
+        "2020": 4,
+        "2024": 3,
+        "2023": 3,
+        "2019": 2,
+        "2022": 2,
+        "2025": 1,
+        "2021": 1
+      },
+      "journal_distribution": {
+        "Nature Communications": 4,
+        "Cell": 3,
+        "Bioinformatics": 3,
+        "Nature Methods": 2,
+        "Science": 2
+      },
+      "methodology_distribution": {
+        "gnn_studies": 15,
+        "rnn_studies": 11,
+        "attention_studies": 12,
+        "spatial_omics_studies": 16
+      },
+      "sample_size_stats": {
+        "mean": 556.38,
+        "median": 623.5,
+        "min": 103,
+        "max": 928
+      }
+    }
+  }
+}

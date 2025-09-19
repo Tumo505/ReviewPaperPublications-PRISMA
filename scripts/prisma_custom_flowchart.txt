@@ -1,0 +1,44 @@
+
+PRISMA FLOW DIAGRAM
+==================
+
+IDENTIFICATION:
+Records identified through database searching: 325
+Databases: PubMed, Web of Science, Embase, IEEE Xplore, ACM Digital Library, arXiv, bioRxiv
+
+SCREENING:
+Records screened (title/abstract): 92
+Records excluded: 55
+
+Exclusion reasons (Title/Abstract):
+  • Duplicate Methodologies: 10
+  • Insufficient Deep Learning: 10
+  • Preliminary Results: 8
+  • No Spatial Resolution: 7
+  • Non Cardiac Focus: 6
+  • Insufficient Methodology: 6
+  • Small Sample Sizes: 4
+  • Theoretical Only: 4
+
+Records remaining: 37
+Inter-rater agreement (κ): 0.807
+
+ELIGIBILITY:
+Full-text articles assessed: 37
+Full-text articles excluded: 21
+
+Key exclusion reasons (Full-text):
+  • Insufficient Methodology: 6
+  • Bulk Transcriptomics Only: 5
+  • Conference Abstracts Letters Editorials: 8
+  • Theoretical Only: 2
+
+INCLUDED:
+Studies included in qualitative synthesis: 16
+
+STUDY CHARACTERISTICS:
+  • Publication years: 2019 - 2025
+  • Studies with GNNs: 15
+  • Studies with RNNs: 11
+  • Studies with Attention: 12
+  • Spatial omics studies: 16

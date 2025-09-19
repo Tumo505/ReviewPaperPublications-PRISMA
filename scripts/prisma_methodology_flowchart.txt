@@ -1,0 +1,73 @@
+
+PRISMA 2020 FLOW DIAGRAM - SYSTEMATIC REVIEW STUDY SELECTION
+============================================================
+
+IDENTIFICATION:
+├─ Records identified through database searching (n = 462)
+│  ├─ PubMed, Web of Science, Embase
+│  ├─ IEEE Xplore, ACM Digital Library, Scopus  
+│  └─ arXiv, bioRxiv, medRxiv
+├─ Additional records through manual curation
+│  ├─ High-impact journal screening
+│  └─ Preprint repository monitoring
+└─ Total records before screening (n = 462)
+
+SCREENING:
+├─ Records screened (title/abstract) (n = 462)
+│  ├─ Two independent reviewers
+│  ├─ Inter-rater agreement (κ = 0.876)
+│  │  ├─ Interpretation: Almost perfect agreement
+│  │  ├─ Percentage agreement: 96.3%
+│  │  ├─ Disagreement rate: 3.7%
+│  │  └─ Quality threshold (≥0.60): ✓ Met
+│  └─ Conflict resolution via discussion
+├─ Records excluded (n = 60)
+│  ├─ Duplicate methodologies (n = 10)
+│  ├─ Insufficient deep learning incorporation (n = 10)  
+│  ├─ Preliminary results lacking validation (n = 8)
+│  ├─ No spatial resolution/bulk omics only (n = 7)
+│  ├─ Non-cardiac tissue focus (n = 6)
+│  ├─ Insufficient methodological detail (n = 6)
+│  ├─ Small sample sizes (n = 4)
+│  ├─ Purely theoretical frameworks (n = 4)
+│  └─ Other exclusion reasons (n = 5)
+└─ Records eligible for full-text retrieval (n = 402)
+
+ELIGIBILITY:
+├─ Full-text articles assessed for eligibility (n = 402)
+├─ Full-text articles excluded (n = 314)
+│  ├─ Not directly addressing cardiomyocyte differentiation 
+│  │   or cardiac regeneration (n = 95)
+│  ├─ Methodological overlap/redundancy with higher
+│  │   quality publications (n = 85)
+│  ├─ Absence of technical reproducibility or detailed
+│  │   methodological descriptions (n = 60)
+│  ├─ Restriction to bulk transcriptomics/non-spatial
+│  │   omics approaches (n = 45)
+│  └─ Failure to meet spatial multi-omics integration
+│      criterion (n = 29)
+└─ Studies meeting inclusion criteria (n = 88)
+
+INCLUDED:
+└─ Studies included in qualitative synthesis (n = 88)
+   ├─ Comprehensive data extraction performed
+   ├─ Quality assessment completed
+   └─ Synthesis focused on:
+      ├─ Study design parameters
+      ├─ Specific omics data modalities
+      ├─ AI model architectures  
+      ├─ Interpretability frameworks
+      ├─ Clinical implications
+      └─ Translational potential
+
+QUALITY ASSURANCE:
+├─ PRISMA 2020 guidelines followed
+├─ Bias minimization through dual review
+├─ Systematic exclusion criteria application
+└─ Reproducible methodology documentation
+
+STUDY CHARACTERISTICS (n = 88):
+├─ Publication years: 2019-2025
+├─ Focus: GNNs, RNNs, attention mechanisms + spatial omics
+├─ Application: Cardiomyocyte differentiation & cardiac regeneration
+└─ Data extraction: Methodological and translational insights

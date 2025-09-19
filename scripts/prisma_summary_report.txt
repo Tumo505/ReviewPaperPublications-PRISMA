@@ -1,0 +1,60 @@
+
+PRISMA STUDY SELECTION SIMULATION SUMMARY REPORT
+Generated: 2025-09-18 17:22:43
+
+CONFIGURATION OVERVIEW:
+-----------------------
+Study Focus: Graph Neural Networks, RNNs, and Attention in Spatial Omics
+Application: Cardiomyocyte Differentiation and Cardiac Regeneration
+Date Range: 2019-2025
+
+TARGET NUMBERS:
+--------------
+Initial Records: 462
+Title/Abstract Excluded: 60
+Full-text Excluded: 314
+Final Included: 88
+
+INCLUSION CRITERIA:
+------------------
+Technologies: GNN, RNN, Attention, Transformer
+Omics Types: spatial_transcriptomics, spatial_epigenomics, spatial_multi_omics, spatial_proteomics
+Applications: cardiomyocyte_differentiation, cardiac_regeneration, cardiac_development, heart_disease_modeling
+Language: English
+Publication Type: peer_reviewed
+
+SEARCH DATABASES:
+----------------
+- PubMed
+- Web of Science
+- Embase
+- IEEE Xplore
+- ACM Digital Library
+- Scopus
+- arXiv
+- bioRxiv
+- medRxiv
+
+QUALITY ASSESSMENT:
+------------------
+Methodological Rigor: Required
+Data Quality: Assessed
+Reporting Standards: Evaluated
+Inter-rater Agreement: Cohen's kappa calculated
+
+OUTPUT FILES:
+------------
+The simulation generates the following files:
+- JSON file with detailed PRISMA flow data
+- CSV file with summary statistics
+- Text file with PRISMA flowchart
+- Configuration log for reproducibility
+
+USAGE INSTRUCTIONS:
+------------------
+1. Run 'python prisma_runner.py' for interactive menu
+2. Modify 'prisma_config.py' to customize parameters
+3. Use 'prisma_study_selection.py' directly for programmatic access
+
+For questions or modifications, refer to the configuration file
+and adjust parameters according to your specific review requirements.

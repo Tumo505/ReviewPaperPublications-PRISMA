@@ -1,0 +1,126 @@
+{
+  "methodology_overview": {
+    "review_focus": "GNNs, RNNs, and attention-based architectures in spatial omics",
+    "application_area": "cardiomyocyte differentiation and cardiac regeneration",
+    "date_range": "January 2019 - December 2025",
+    "language_restriction": "English",
+    "publication_type": "peer-reviewed full-text articles"
+  },
+  "identification": {
+    "initial_records": 462,
+    "search_strategy": "systematic searches across databases + manual curation",
+    "databases_searched": [
+      "PubMed",
+      "Web of Science",
+      "Embase",
+      "IEEE Xplore",
+      "ACM Digital Library",
+      "Scopus",
+      "arXiv",
+      "bioRxiv",
+      "medRxiv"
+    ],
+    "search_period": "comprehensive systematic search",
+    "additional_sources": [
+      "high-impact journal manual curation",
+      "preprint repository screening",
+      "reference list screening"
+    ]
+  },
+  "screening": {
+    "title_abstract_phase": {
+      "records_screened": 462,
+      "reviewers": "two independent reviewers",
+      "records_excluded": 60,
+      "exclusion_breakdown": {
+        "duplicate_methodologies": 10,
+        "insufficient_deep_learning": 10,
+        "preliminary_results": 8,
+        "no_spatial_resolution": 7,
+        "non_cardiac_focus": 6,
+        "insufficient_methodology": 6,
+        "small_sample_sizes": 4,
+        "theoretical_only": 4,
+        "other_reasons": 5
+      },
+      "records_remaining": 402
+    },
+    "inter_rater_reliability": {
+      "cohens_kappa": 0.876,
+      "interpretation": "Almost perfect agreement",
+      "percent_agreement": 96.3,
+      "disagreement_rate": 3.7,
+      "confusion_matrix": {
+        "include_include": 75,
+        "include_exclude": 8,
+        "exclude_include": 9,
+        "exclude_exclude": 370
+      },
+      "quality_assessment": {
+        "acceptable_threshold": 0.6,
+        "meets_threshold": true,
+        "confidence_level": "High"
+      },
+      "conflict_resolution": "discussion + third reviewer adjudication"
+    }
+  },
+  "eligibility": {
+    "full_text_assessment": {
+      "articles_retrieved": 402,
+      "articles_excluded": 314,
+      "exclusion_categories": {
+        "not_cardiomyocyte_focused": 95,
+        "methodological_overlap_redundancy": 85,
+        "insufficient_reproducibility": 60,
+        "bulk_transcriptomics_only": 45,
+        "no_spatial_integration": 29
+      },
+      "articles_included": 88
+    },
+    "inclusion_criteria": {
+      "technologies": [
+        "GNNs",
+        "RNNs",
+        "attention-based architectures"
+      ],
+      "omics_requirement": "spatial omics technologies",
+      "application_focus": [
+        "cardiomyocyte differentiation",
+        "cardiac regeneration"
+      ],
+      "study_requirements": [
+        "peer-reviewed publications",
+        "full-text availability",
+        "English language",
+        "published 2019-2025"
+      ]
+    },
+    "exclusion_criteria": [
+      "bulk transcriptomics without spatial resolution",
+      "lack of deep learning components",
+      "non-cardiac tissue applications",
+      "conference abstracts/letters/editorials",
+      "insufficient methodological detail",
+      "non-reproducible studies"
+    ]
+  },
+  "inclusion": {
+    "final_synthesis": 88,
+    "synthesis_approach": "comprehensive qualitative synthesis",
+    "quality_assessment": "methodological rigor evaluated",
+    "data_extraction_focus": [
+      "study design parameters",
+      "omics data modalities",
+      "AI model architectures",
+      "interpretability frameworks",
+      "clinical implications",
+      "translational potential"
+    ]
+  },
+  "quality_metrics": {
+    "bias_minimization": "two independent reviewers for all phases",
+    "reproducibility": "detailed methodology documentation",
+    "transparency": "PRISMA guidelines followed",
+    "validation": "inter-rater agreement measured"
+  }
+}
